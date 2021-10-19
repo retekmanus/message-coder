@@ -108,8 +108,5 @@ for char in inpN2: #modified input numbers converted to letters
         char = xyz[f"{char}"]
         outlist.append(char)
 
-
-print(keySN)
-print(newkeyN)
 output = ''.join(outlist) #converted message joined into text
 print(output)
